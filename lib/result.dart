@@ -10,11 +10,11 @@ class Result extends StatelessWidget {
     String resultText;
 
     if (resultScore < 10) {
-      resultText = 'awesome';
+      resultText = 'You are awesome arent you?';
     } else if (resultScore < 8) {
-      resultText = 'very good';
+      resultText = 'you are Very pathetic ';
     } else {
-      resultText = 'awful';
+resultText = 'ewww how can you score like that? please retry';
     }
     return resultText;
   }
